@@ -596,14 +596,8 @@ New-HTML -AutoRefresh 120 -FavIcon "https://cyberark.local/PasswordVault/v10/fav
 
 # Add logic here to copy the index.html to each of the PVWA's
 # C:\inetpub\wwwroot\Health directories
-$PVWAS = @(
-    "$PVWA1",
-    "$PVWA2",
-    "$PVWA3"
-)
- 
 
-Foreach ($p in $PVWAS) {
+Foreach ($p in $PVWAServers) {
     write-Host "pvwa name is " $p
  
  
