@@ -8,7 +8,7 @@ Fully customizable to suit the number of component servers in your CyberArk ecos
 
 <img width="2048" alt="Dashboard" src="https://user-images.githubusercontent.com/16002550/105228870-180d9300-5b31-11eb-9c78-d889bab1e359.png">
 
-Special thanks to James Ashley for refactoring my original code.
+Special thanks to [James Ashley](https://github.com/jashley1992) for refactoring my original code.
 
 
 Credit to Jaap Brasser for his Get-ScheduledTask.ps1 script
