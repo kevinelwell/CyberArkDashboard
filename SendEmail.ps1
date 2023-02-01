@@ -20,7 +20,6 @@
     $body = "`r`n`r`nTHE CYBERARK PVWA SERVICE STOPPED ON $ENV:COMPUTERNAME AT $now.`r`n`r`r`n`r"
         
     # Send the email message
-    # Uncomment the line below to enable emails being sent for unauthorized attempts to execute this utility.
     send-mailmessage -from "$smtpFrom" -to $smtpTo -subject "$messageSubject" -body "$body" -smtpServer "$smtpserver"
         
     # Display error dialog popup
